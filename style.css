@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.wrapper{
+  padding: 5% 2%;
+}
+.box1{ 
+  background-color: #7541c8;
+  color: white;
+
+}
+.box2{ 
+  background-color: #48556a;
+  color: white;
+}
+.box3{ 
+  background-color:#ffffff;
+}
+.box4{ 
+  background-color:#19212e;
+  color:white;
+}
+.box5{ 
+  background-color:white;
+}
+.box{ 
+  padding: 20px;
+  margin-bottom: 20px;
+}
+@media(min-width:476px){
+.wrapper{
+  display: flex;
+  margin:0 auto;
+  justify-content: space-between;
+}
+.maindiv{
+flex-basis: 68%;
+display: flex;
+flex-direction: column;
+}
+.seconddiv{
+  flex-basis:30%;
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+.image-section{
+  display: flex;
+  align-items: center;
+}
+.heading{
+display: flex;
+flex-direction: column;
+}
+#image {
+  border-radius: 50%;
+  margin: 10px;
+}
+.box h4 {
+  margin-bottom: 5px;
+  font-weight:600;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  position: relative;
+  z-index: 0;
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 38%;
+}
+.box3{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 38%
+}
+.box4{
+  display: flex;
+  flex-direction: column;
+  flex-basis:60%;
+  font-weight: 400;
+}
+.box5{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2) ;
+
+}
+#quote{
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  width: 5em;
+  z-index: 1;
+}
+
+.box1 div{
+  z-index: 4;
+}
+.box p{
+  size: 12px;
+}
+}
